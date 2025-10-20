@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GreenLoop - Campus E-Waste Recycling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>GreenLoop</h1>
+      <p>Campus E-Waste Recycling</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="container">
+      <li><a href="#about">About</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#schedule">Schedule Pickup</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>GreenLoop is a student-driven venture that enables easy e-waste collection and recycling inside college campuses. We help students dispose of old chargers, headphones, laptops, and more through a simple app or portal. Our mission is to promote eco-friendly practices and reduce toxic e-waste from harming the environment.</p>
+  </section>
+
+  <section id="how-it-works" class="container">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Login to our app or web portal</li>
+      <li>Schedule a pickup or locate a nearby drop-off point</li>
+      <li>We collect the items every week</li>
+      <li>Items are sent to authorized recyclers</li>
+    </ol>
+  </section>
+
+  <section id="schedule" class="container">
+    <h2>Schedule a Pickup</h2>
+    <form id="pickupForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="item">Item to Recycle:</label><br>
+      <input type="text" id="item" name="item" placeholder="e.g. Old Laptop" required><br>
+
+      <label for="location">Pickup Location:</label><br>
+      <input type="text" id="location" name="location" placeholder="e.g. Hostel Block A" required><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: contact@greenloop.in</p>
+    <p>City: [Enter your college city]</p>
+    <p>Country: India</p>
+    <p>Website: Under Development</p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GreenLoop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
